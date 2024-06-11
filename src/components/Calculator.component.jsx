@@ -1,3 +1,5 @@
+import "./Calculator.css";
+
 const Calculate = () => {
   return (
     <div className="container">
@@ -38,7 +40,7 @@ const Calculate = () => {
           <div>
             <input type="button" value="00" />
             <input type="button" value="0" />
-            <input type="button" value="=" />
+            <input type="button" value="=" className="equal" />
           </div>
         </form>
       </div>
